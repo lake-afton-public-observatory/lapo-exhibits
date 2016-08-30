@@ -26,7 +26,7 @@ To setup this repo,
 - The files in this repo will be hosted on a server on-site using a static IP of 192.168.1.200 - make sure "home" links point there.
 - Code documentation can be found on [Github](https://github.com/hakimel/reveal.js/)
 - Please use existing exhibits as a template, avoid too much custom CSS.
-- If you want to add a new feature discuss you may submit a pull request but we'd love to chat about it first. [Seth Duncan](sduncan@lakeafton.com) or [Michael Neth](mneth@lakeafton.com).
+- If you want to add a new feature discuss you may submit a pull request but we'd love to chat about it first. Send questions to [Seth Duncan](sduncan@lakeafton.com) or [Michael Neth](mneth@lakeafton.com).
 
 ## Technology
 - These presentations will be running on Raspberry Pi powered 10" touchscreens running 1280x800 resolution. Please take these constraints into consideration.
@@ -36,4 +36,6 @@ To setup this repo,
 In an effort to maintain consistent, professional branding, please use the logos and brand standards. If you have any questions or need feedback, Andrew Stephens has offered to advise.
 
 - [**Logos/Brand Standards Download**](http://bit.ly/2aNUfSN)
+- **Dev Contact:** [Seth Duncan](sduncan@lakeafton.com)
+- **Git Contact:** [Michael Neth](mneth@lakeafton.com)
 - **Branding Contact:** [Andrew Stephens](artandsalsa@gmail.com)
