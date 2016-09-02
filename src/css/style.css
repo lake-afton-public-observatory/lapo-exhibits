@@ -34,7 +34,6 @@ ul {
 
 .nav ul {
   max-width:150px;
-  margin:0 auto;
 }
 
 .nav li {
@@ -42,6 +41,15 @@ ul {
   text-align:center;
   padding:3px 5px;
   border:4px solid #461E3D;
+  border-bottom:none;
+  font-size:18px;
+  font-weight:800;
+  display:inline-block;
+  width:100px;
+}
+
+.nav li:last-child {
+  border-bottom:4px solid #461E3D;
 }
 
 .nav li a {
