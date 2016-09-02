@@ -18,7 +18,7 @@ To setup this repo,
 - You're all set.
 
 ## Binaries
-- A bunch of images are required for this repo. They can be [downloaded here](http://bit.ly/2bS391s) and placed in /src/img/
+- A bunch of images are required for this repo. They can be [downloaded here](http://bit.ly/2bII3mF) and placed in /src/img/
 - Try to keep photos no larger than 1280x800
 - If you add photos, please modify the above link to point to a new location with the COMPLETE /src/img/ folder so it's up to date.
 
