@@ -13,7 +13,7 @@ even add completely new functionality. Examples could be:
 ## Setup
 To setup this repo,
 - clone it to your local machine however you like,
-- make sure the reveal.js code is present in /node_modules/ by using NPM or just manually placing the files
+- make sure the reveal.js code is present in /node_modules/ by using NPM to install reveal.js, or just manually placing the files in /node_modules/reveal.js/
 - place the updated binaries in /src/img/
 - You're all set.
 
@@ -30,7 +30,7 @@ To setup this repo,
 
 ## Technology
 - These presentations will be running on Raspberry Pi powered 10" touchscreens running 1280x800 resolution. Please take these constraints into consideration.
-- [Reveal JS](http://lab.hakim.se/reveal-js/#/) is required for the presentations. Use NPM or just stick the reveal.js file in /node_modules/
+- [Reveal JS](http://lab.hakim.se/reveal-js/#/) is required for the presentations. Use NPM to install reveal.js or just stick the reveal.js directory in /node_modules/
 
 ## Branding
 In an effort to maintain consistent, professional branding, please use the logos and brand standards. If you have any questions or need feedback, Andrew Stephens has offered to advise.
