@@ -13,6 +13,7 @@ even add completely new functionality. Examples could be:
 ## Setup
 To setup this repo,
 - clone it to your local machine however you like,
+- make sure the reveal.js code is present in /node_modules/ by using NPM to install reveal.js, or just manually placing the files in /node_modules/reveal.js/
 - place the updated binaries in /src/img/
 - You're all set.
 
