@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Interactive exhibits for the Lake Afton Public Observatory",
   "main": "index.js",
-  "dependencies": {
-    "reveal.js": "^3.3.0"
-  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
