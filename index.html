@@ -1,19 +1,56 @@
 <html>
 <head>
   <title>Lake Afton Interactive Exhibits</title>
+	<link rel="stylesheet" type="text/css" href="src/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="src/css/style.css">
 </head>
 <body>
   <div class="container">
-    <div class="nav">
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark bgPurple">
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mx-auto">
+		      <li class="nav-item dropdown px-3">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Planets
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="/presentations/mercury.html">Mercury</a>
+		          <a class="dropdown-item" href="/presentations/mars.html">Mars</a>
+		          <a class="dropdown-item" href="/presentations/saturn.html">Saturn</a>
+		        </div>
+		      </li>
+					<li class="nav-item dropdown px-3">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Physics
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="/presentations/keplerslaws.html">Kepler's Laws</a>
+		        </div>
+		      </li>
+					<li class="nav-item dropdown px-3">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Deep Space Objects
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="/presentations/blackholes.html">Black Holes</a>
+		        </div>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+    <!-- <div class="nav">
      <ul>
        <li><a href="presentations/planets/mercury.html">Mercury</a></li>
        <li><a href="presentations/planets/mars.html">Mars</a></li>
        <li><a href="presentations/planets/saturn.html">Saturn</a></li>
        <li><a href="presentations/keplerslaws/keplerslaws.html">Kepler's Laws</a></li>
-       <li><a href="presentations/black-holes/black-holes.html">Black Holes</a></li> 
+       <li><a href="presentations/black-holes/black-holes.html">Black Holes</a></li>
      </ul>
-    </div>
+    </div> -->
 
   </div>
+	<script src="src/js/jquery-3.0.0.slim.min.js"></script>
+	<script src="src/js/popper.js"></script>
+	<script src="src/js/bootstrap.min.js"></script>
 </body>
+</html>
