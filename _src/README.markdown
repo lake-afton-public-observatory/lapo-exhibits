@@ -23,38 +23,31 @@ To install Harp, run the following command:
 sudo npm install -g harp
 ```
 
-You can start a local web server for development by running the following command:
+## Working with the source code
 
-```
-harp server _src
-```
-
-Run the following command to build the source files (note the dot at the end):
-
-```
-harp compile _src .
-```
-
-## Setup
-To setup this repo:
 1. Clone it to your local machine however you like
 2. Place the updated [binaries](#binaries) in `/src/`
-3. Run `harp server _src`
+3. Run `harp server _src` to view/test
+4. Edit code
+5. Run `harp compile _src .` to build
+6. Push code
+
+Since there's currently no internet out at the observatory, this repo will have to be manually installed on the on-site server, so expect a delay between when you push changes and when they show on the tablets at LAPO.
 
 ## Binaries
-- A bunch of images and videos are required for this project. They can be [downloaded here](http://bit.ly/2bII3mF) and the `img` and `video` folders placed in `/src/`.
+- A bunch of images and videos are required for this project. They can be [downloaded here](http://bit.ly/2bII3mF) and placed in the `img` and `video` folders.
 - Try to keep photos no larger than 1280x800
 - If you add photos, please modify the above link to point to a new location with the COMPLETE `/src/` folder so it's up to date.
 
 ## Code
-- The files in this repo will be hosted on a server on-site using a static IP of 192.168.1.200 - make sure "home" links point there.
-- Code documentation can be found on [Github](https://github.com/hakimel/reveal.js/)
-- Please use existing exhibits as a template, avoid too much custom CSS.
+- Reveal.js code documentation can be found on [Github](https://github.com/hakimel/reveal.js/)
+- Please use existing exhibits as a template.
 - If you want to add a new feature discuss you may submit a pull request but we'd love to chat about it first. Send questions to [Seth Duncan](sduncan@lakeafton.com) or [Michael Neth](mneth@lakeafton.com).
 
 ## Technology
 - These presentations will be running on Raspberry Pi powered 10" touchscreens running 1280x800 resolution. Please take these constraints into consideration.
 - Powered by [Reveal JS](http://lab.hakim.se/reveal-js/#/)
+- Using Bootstrap 4, jQuery 3.0.0 slim, Popper.js
 
 ## Branding
 In an effort to maintain consistent, professional branding, please use the logos and brand standards. If you have any questions or need feedback, Andrew Stephens has offered to advise.
