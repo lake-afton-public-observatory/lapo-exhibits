@@ -26,7 +26,7 @@ sudo npm install -g harp
 ## Working with the source code
 
 1. Clone it to your local machine however you like
-2. Place the updated [binaries](#binaries) in `/src/`
+2. Place the updated [binaries](#binaries) in the `/img/` and/or `/video/` folders
 3. Run `harp server _src` to view/test
 4. Edit code
 5. Run `harp compile _src .` to build
