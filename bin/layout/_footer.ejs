@@ -1,0 +1,23 @@
+	</div> <!-- .container -->
+	<script src="../layout/js/reveal.js/lib/js/head.min.js"></script>
+	<script src="../layout/js/reveal.js/js/reveal.js"></script>
+	<script src="../layout/js/jquery-3.0.0.slim.min.js"></script>
+	<script src="../layout/js/popper.js"></script>
+	<script src="../layout/js/bootstrap.min.js"></script>
+
+	<script>
+		// More info https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			history: true,
+
+			// More info https://github.com/hakimel/reveal.js#dependencies
+			dependencies: [
+				{ src: '../layout/js/reveal.js/plugin/markdown/marked.js' },
+				{ src: '../layout/js/reveal.js/plugin/markdown/markdown.js' },
+				{ src: '../layout/js/reveal.js/plugin/notes/notes.js', async: true },
+				{ src: '../layout/js/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+	</script>
+</body>
+</html>

@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="../../src/js/reveal.js/css/theme/black.css">
 		<link rel="stylesheet" href="../../src/css/style.css">
     <link rel="stylesheet" href="../../src/css/custom_presentation.css">
+		<link rel="stylesheet" type="text/css" href="../../src/css/bootstrap.min.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="../../src/js/reveal.js/lib/css/zenburn.css">
@@ -25,11 +26,48 @@
 	</head>
 	<body>
 
-		<div class="nav">
-			<ul>
-				<li><a href="../../index.html">Home</a></li>
-			</ul>
-		</div>
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark bgPurple fixed-top">
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mx-auto">
+		      <li class="nav-item dropdown px-3">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Planets
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="/presentations/mercury.html">Mercury</a>
+		          <a class="dropdown-item" href="/presentations/mars.html">Mars</a>
+		          <a class="dropdown-item" href="/presentations/jupiter.html">Jupiter</a>
+		          <a class="dropdown-item" href="/presentations/saturn.html">Saturn</a>
+		        </div>
+		      </li>
+					<li class="nav-item dropdown px-3">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Physics
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="/presentations/keplers-laws.html">Kepler's Laws</a>
+		        </div>
+		      </li>
+					<li class="nav-item dropdown px-3">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Deep Space Objects
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="/presentations/dso-slideshow.html">DSO Slideshow</a>
+		          <a class="dropdown-item" href="/presentations/black-holes.html">Black Holes</a>
+		        </div>
+		      </li>
+					<li class="nav-item dropdown px-3">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Spacecraft
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="/presentations/hubble.html">Hubble</a>
+		        </div>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
 
 		<div class="reveal">
 			<div class="slides">
@@ -85,6 +123,9 @@
 
 		<script src="../../src/js/reveal.js/lib/js/head.min.js"></script>
 		<script src="../../src/js/reveal.js/js/reveal.js"></script>
+		<script src="../../src/js/jquery-3.0.0.slim.min.js"></script>
+		<script src="../../src/js/popper.js"></script>
+		<script src="../../src/js/bootstrap.min.js"></script>
 
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
