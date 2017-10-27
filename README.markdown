@@ -37,7 +37,6 @@ Since there's currently no internet out at the observatory, this repo will have 
 ## Binaries
 - A bunch of images and videos are required for this project. They can be [downloaded here](http://bit.ly/2bII3mF) and placed in the `img` and `video` folders.
 - Try to keep photos no larger than 1280x800
-- If you add photos, please modify the above link to point to a new location with the COMPLETE `/src/` folder so it's up to date.
 
 ## Code
 - Reveal.js code documentation can be found on [Github](https://github.com/hakimel/reveal.js/)
