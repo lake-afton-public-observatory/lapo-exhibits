@@ -30,8 +30,6 @@ build/Release
 # Other Binaries
 img
 video
-bin/img
-bin/video
 
 # Dependency directories
 node_modules
