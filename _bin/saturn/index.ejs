@@ -1,56 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <title>Saturn</title>
-
-    <link rel="icon" type="image/png" href="../../src/img/saturn/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="../../src/img/saturn/favicon-16x16.png" sizes="16x16" />
-
-
-    <link rel="stylesheet" href="../../src/js/reveal.js/css/reveal.css">
-    <link rel="stylesheet" href="../../src/js/reveal.js/css/theme/black.css">
-		<link rel="stylesheet" href="../../src/css/style.css">
-    <link rel="stylesheet" href="../../src/css/custom_presentation.css">
-
-    <!-- Theme used for syntax highlighting of code -->
-    <link rel="stylesheet" href="../../src/js/reveal.js/lib/css/zenburn.css">
-
-    <style>
-        .stroke {
-            color: black;
-            /*-webkit-text-fill-color: white;  Will override color (regardless of order) */
-            -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: black;
-        }
-    </style>
-
-    <!-- Printing and PDF exports -->
-    <script>
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = window.location.search.match( /print-pdf/gi ) ? '../../src/js/reveal.js/css/print/pdf.css' : '../../src/js/reveal.js/css/print/paper.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    </script>
-
-</head>
-<body>
-  <div class="nav">
-    <ul>
-      <li><a href="../../index.html">Home</a></li>
-    </ul>
-  </div>
+		<%- include('../layout/_header', {
+			pageTitle: 'Saturn',
+			pageDescription: ''
+		}); %>
+		    <style>
+		        .stroke {
+		            color: black;
+		            /*-webkit-text-fill-color: white;  Will override color (regardless of order) */
+		            -webkit-text-stroke-width: 1px;
+		            -webkit-text-stroke-color: black;
+		        }
+		    </style>
     <div class="reveal">
         <div class="slides">
 
-            <section data-background-color="black" data-background-video="../../src/video/h264/PanningAroundSaturn.mp4, ../../src/video/h264/PanningAroundSaturn.webm" data-background-video-loop	 data-background-video-muted data-background-size="contain">
+            <section data-background-color="black" data-background-video="/video/h264/PanningAroundSaturn.mp4, /video/h264/PanningAroundSaturn.webm" data-background-video-loop	 data-background-video-muted data-background-size="contain">
                 <h1 style="margin-top: 25%;">Saturn</h1>
             </section>
 
-            <section data-background-color="#dbc188" data-background-image="../../src/img/saturn/saturn-whole-panorama.jpg" data-background-size="fill"> <!-- Fast Facts Page 1 data-background-color="#dbc188" -->
+            <section data-background-color="#dbc188" data-background-image="/img/saturn/saturn-whole-panorama.jpg" data-background-size="fill"> <!-- Fast Facts Page 1 data-background-color="#dbc188" -->
                 <section>
                     <h2 style="color: white;">Did You Know?</h2>
                     <ul style="color: white; text-align: center; padding-right: 3%;">
@@ -61,7 +29,7 @@
                 </section>
             </section>
 
-            <section data-background-color="#dbc188" data-background-image="../../src/img/saturn/saturn-top-right.jpg" data-background-position="100% 0%"> <!-- Fast Facts Page 1 data-background-color="#dbc188" -->
+            <section data-background-color="#dbc188" data-background-image="/img/saturn/saturn-top-right.jpg" data-background-position="100% 0%"> <!-- Fast Facts Page 1 data-background-color="#dbc188" -->
                 <section style="background: rgba(215, 181, 143, 0.5); border-radius: 10%;">
                     <h2 style="color: white;">Facts About Saturn</h2>
                     <hr>
@@ -74,19 +42,19 @@
             </section>
 
             <section data-background-color="#dbc188" >
-                <section data-background-image="../../src/img/saturn/saturn-pull-right.jpg" data-background-position="100% 0%" data-background-size="fill
+                <section data-background-image="/img/saturn/saturn-pull-right.jpg" data-background-position="100% 0%" data-background-size="fill
 ">
                     <p style="color: white;">You cannot stand on Saturn. It is not like Earth. Saturn is made mostly of gases. It has a lot of helium, the same kind of gas that you put in balloons. This means we can only take pictures of the outer layer of these gasses.</p>
                     <p style="font-size:.5em; color: white;">Scroll down for more photos</p>
                 </section>
 
-                <section data-background-image="../../src/img/saturn/hexagon-natural-color.jpg" data-background-size="fill"><!-- picture 1 --></section>
-                <section data-background-image="../../src/img/saturn/saturn-storm.jpg" data-background-size="fill"><!-- picture 2 --></section>
-                <section data-background-image="../../src/img/saturn/natural-color-view.jpg" data-background-size="fill"><!-- picture 3 --></section>
+                <section data-background-image="/img/saturn/hexagon-natural-color.jpg" data-background-size="fill"><!-- picture 1 --></section>
+                <section data-background-image="/img/saturn/saturn-storm.jpg" data-background-size="fill"><!-- picture 2 --></section>
+                <section data-background-image="/img/saturn/natural-color-view.jpg" data-background-size="fill"><!-- picture 3 --></section>
             </section>
 
             <section data-background-color="black">
-                <section data-background-image="../../src/img/saturn/saturn-top-left-moon.jpg" data-background-size="contain" data-background-position="0px 0px">
+                <section data-background-image="/img/saturn/saturn-top-left-moon.jpg" data-background-size="contain" data-background-position="0px 0px">
                     <h2 style="color: white;">Saturn's Atmosphere</h2>
                     <hr>
                     <p style="color: white;">The gas Saturn is made of is a lot like Jupiter, but much less interesting to look at. But enhanced-color images shows the bands which run parallel to the equator, showing the violent winds within the atmosphere. The enchanced color images also show differences in the planet's composition.</p>
@@ -94,18 +62,18 @@
                 </section>
 
                 <section>
-                    <img src="../../src/img/saturn/enhanced-color/wide-comparison-text.jpg">
+                    <img src="/img/saturn/enhanced-color/wide-comparison-text.jpg">
                 </section>
 
-                <section data-background-image="../../src/img/saturn/enhanced-color/ec-full-bands.jpg" data-background-size="100%">
+                <section data-background-image="/img/saturn/enhanced-color/ec-full-bands.jpg" data-background-size="100%">
                 </section>
 
-                <section data-background-image="../../src/img/saturn/enhanced-color/enhanced-rings.jpg" data-background-size="contain">
+                <section data-background-image="/img/saturn/enhanced-color/enhanced-rings.jpg" data-background-size="contain">
                 </section>
             </section>
 
             <section data-background-color="black">
-                <section data-background-image="../../src/img/saturn/saturn-from-top.jpg" data-background-size="contain">
+                <section data-background-image="/img/saturn/saturn-from-top.jpg" data-background-size="contain">
                     <h2 style="color: white;">Saturn's Hexagon</h2>
                     <hr>
                     <p style="color: white;">Saturn's hexagon is at its north pole. Each of the hexagon's sides is larger than the diameter of Earth. The hexagon is constantly rotating, but never moves.</p>
@@ -114,16 +82,16 @@
 
                 <section>
                     <p style="color: white;">The hexagon is a collection of turbulet airflow that results from the high winds at Saturn's equator. </p>
-                    <img src="../../src/img/saturn/enhanced-color/hexagon-rotating.gif" style="width: 500px; height: 500px;">
+                    <img src="/img/saturn/enhanced-color/hexagon-rotating.gif" style="width: 500px; height: 500px;">
                 </section>
 
                 <section>
                     <p style="color: white; margin-top: -5%;">The hexagon was first discovered by NASA's two Voyager probes as they passed Saturn in the early 1980s. NASA's Cassini probe arrived at Saturn in 2004 and was able to study the hexagon through 2009.</p>
-                    <img src="../../src/img/saturn/enhanced-color/storm.jpg" style="height: 500px; width: auto;">
+                    <img src="/img/saturn/enhanced-color/storm.jpg" style="height: 500px; width: auto;">
                 </section>
             </section>
 
-            <section data-background-video="../../src/video/h264/PanningThroughRings.mp4" data-background-video-loop	 data-background-video-muted data-background-size="contain">
+            <section data-background-video="/video/h264/PanningThroughRings.mp4" data-background-video-loop	 data-background-video-muted data-background-size="contain">
                     <h2 style="color: white;">Saturn's Rings</h2>
                     <hr>
                     <ul style="color: white; text-align: center; padding-right: 4%;">
@@ -134,7 +102,7 @@
             </section>
 
             <section data-background-color="#010101">
-                <section data-background-image="../../src/img/saturn/rings-and-moon-top-right.jpg" data-background-position="100% 0%" data-background-size="contain">
+                <section data-background-image="/img/saturn/rings-and-moon-top-right.jpg" data-background-position="100% 0%" data-background-size="contain">
                     <h2>Saturn's Moons</h2>
                     <hr>
                     <p style="color: white;">Saturn has over 60 moons that range in size from smaller than a football stadium to larger than the planet Mercury.</p>
@@ -142,7 +110,7 @@
                     <p style="font-size:.5em; color: white;">Scroll down to learn more.</p>
                 </section>
 
-                <section data-background-image="../../src/img/saturn/moon-hyperion.jpg" data-background-size="fill">
+                <section data-background-image="/img/saturn/moon-hyperion.jpg" data-background-size="fill">
                     <div style="background: rgba(196, 191, 179, 0.4); border-radius: 15px;">
                         <h2>Hyperion</h2>
                         <hr>
@@ -150,7 +118,7 @@
                     </div>
                 </section>
 
-                <section data-background-image="../../src/img/saturn/moon-enceladus.jpg" data-background-size="contain" data-background-position="100% 100%">
+                <section data-background-image="/img/saturn/moon-enceladus.jpg" data-background-size="contain" data-background-position="100% 100%">
                     <div style="margin-right: 10%; margin-left: -15%; width: 65%;">
                         <h2>Enceladus</h2>
                         <hr>
@@ -159,7 +127,7 @@
                     </div>
                 </section>
 
-                <section data-background-image="../../src/img/saturn/moon-titan.jpg" data-background-size="fill">
+                <section data-background-image="/img/saturn/moon-titan.jpg" data-background-size="fill">
                     <h2>Titan</h2>
                     <hr>
                     <p style="color: white;">Before 2004, we knew very little about Titan other than its size and that it had a dense, nitrogen-rich atmosphere. Data from Cassini and the Huygens Titan probe revealed that the moon has lakes and seas of liquid methane and ethane, replenished by rain from hydrocarbon clouds. The mission also provided evidence that Titan is hiding an internal, liquid ocean beneath its surface, likely composed of water and ammonia.</p>
@@ -169,23 +137,4 @@
         </div>
     </div>
 
-    <script src="../../src/js/reveal.js/lib/js/head.min.js"></script>
-    <script src="../../src/js/reveal.js/js/reveal.js"></script>
-
-    <script>
-        // More info https://github.com/hakimel/reveal.js#configuration
-        Reveal.initialize({
-            history: true,
-
-            // More info https://github.com/hakimel/reveal.js#dependencies
-            dependencies: [
-                { src: '../../src/js/reveal.js/plugin/markdown/marked.js' },
-                { src: '../../src/js/reveal.js/plugin/markdown/markdown.js' },
-                { src: '../../src/js/reveal.js/plugin/notes/notes.js', async: true },
-                { src: '../../src/js/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-            ]
-        });
-    </script>
-
-</body>
-</html>
+<%- include('../layout/_footer'); %>

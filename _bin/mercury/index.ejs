@@ -1,53 +1,11 @@
-<!doctype html>
-<html>
-<head>
-<!-- TODO -->
-<!-- Run with imgs in img folder -->
-<!-- Fix alignment -->
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-    <title>Mercury</title>
-
-    <link rel="stylesheet" href="../../src/js/reveal.js/css/reveal.css">
-    <link rel="stylesheet" href="../../src/js/reveal.js/css/theme/black.css">
-		<link rel="stylesheet" href="../../src/css/style.css">
-    <link rel="stylesheet" href="../../src/css/custom_presentation.css">
-
-    <!-- Theme used for syntax highlighting of code -->
-    <link rel="stylesheet" href="../../src/js/reveal.js/lib/css/zenburn.css">
-
-    <style>
-        .stroke {
-            color: black;
-            /*-webkit-text-fill-color: white;  Will override color (regardless of order) */
-            -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: black;
-        }
-    </style>
-
-    <!-- Printing and PDF exports -->
-    <script>
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = window.location.search.match( /print-pdf/gi ) ? '../../src/js/reveal.js/css/print/pdf.css' : '../../src/js/reveal.js/css/print/paper.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    </script>
-
-</head>
-	<body>
-		<div class="nav">
-			<ul>
-				<li><a href="../../index.html">Home</a></li>
-			</ul>
-		</div>
-
+<%- include('../layout/_header', {
+	pageTitle: 'Mercury',
+	pageDescription: ''
+}); %>
 		<div class="reveal">
 			<div class="slides">
 
-        <section class="has-dark-background" data-background-color="#000000" data-background-image="../../src/img/mercury/True_Mercury-browse.jpg" data-background-size="contain">
+        <section class="has-dark-background" data-background-color="#000000" data-background-image="/img/mercury/True_Mercury-browse.jpg" data-background-size="contain">
           <h1>Mercury</h1>
         </section>
 
@@ -63,7 +21,7 @@
           <section>
             <p>Mercury Facts by NASA</p>
             <p style="font-size:.5em;">Scroll down for more</p>
-            <img data-src="../../src/img/mercury/s2-12801.jpg" />
+            <img data-src="/img/mercury/s2-12801.jpg" />
           </section>
           <section><h2>Smallest</h2>
             <p>Mercury is the smallest planet in our solar system - only slightly larger than the Earth's moon.</p>
@@ -94,28 +52,28 @@
 
 
         <section data-background-color="#000000"> <!-- Surface Photos -->
-          <section data-background-image="../../src/img/mercury/729247main_messenger_orbit_image201302022_1_full_full_732.jpg" data-background-size="cover">
+          <section data-background-image="/img/mercury/729247main_messenger_orbit_image201302022_1_full_full_732.jpg" data-background-size="cover">
             <h2>The Surface of Mercury</h2>
             <p style="font-size:.5em;bottom:0;">Scroll down for more photos</p>
           </section>
-          <section data-background-image="../../src/img/mercury/PIA15160.jpg" data-background-size="contain"></section>
-          <section data-background-image="../../src/img/mercury/20130514_complete_732.jpg" data-background-size="contain"></section>
-          <section data-background-image="../../src/img/mercury/True_Mercury-browse.jpg" data-background-size="contain"></section>
-          <section data-background-image="../../src/img/mercury/Messenger-732X520.jpg" data-background-size="contain"></section>
-          <section data-background-image="../../src/img/mercury/rembrandt732X520.jpg" data-background-size="contain"></section>
-          <section data-background-image="../../src/img/mercury/messenger_732X520.jpg" data-background-size="contain"></section>
+          <section data-background-image="/img/mercury/PIA15160.jpg" data-background-size="contain"></section>
+          <section data-background-image="/img/mercury/20130514_complete_732.jpg" data-background-size="contain"></section>
+          <section data-background-image="/img/mercury/True_Mercury-browse.jpg" data-background-size="contain"></section>
+          <section data-background-image="/img/mercury/Messenger-732X520.jpg" data-background-size="contain"></section>
+          <section data-background-image="/img/mercury/rembrandt732X520.jpg" data-background-size="contain"></section>
+          <section data-background-image="/img/mercury/messenger_732X520.jpg" data-background-size="contain"></section>
 
 
         </section> <!-- Surface Photos -->
 
 		<section data-background-color="#9b442c"> <!-- Caloris Basin -->
 			<section style="text-align:left;">
-				<img style="float:right;padding-left:5px;margin-right:5px;max-width:75%" data-src="../../src/img/mercury/messenger_falsecolor_732X520.jpg" />
+				<img style="float:right;padding-left:5px;margin-right:5px;max-width:75%" data-src="/img/mercury/messenger_falsecolor_732X520.jpg" />
 				<h2>Caloris Basin</h2>
 				<p>The Caloris Basin is the largest crater on Mercury.</p>
 			</section>
 			<section>
-				<img data-src="../../src/img/mercury/Caloris_Basin732X520.jpg" />
+				<img data-src="/img/mercury/Caloris_Basin732X520.jpg" />
 				<p>At roughly 1,550 km (960 miles) in diameter, the Caloris Basin is one of the largest impact basins in the solar system.</p>
 			</section>
         </section>
@@ -135,22 +93,22 @@
         <section data-background-color="#9b442c"> <!-- Mercurian Observation -->
 					<section>
 	          <h2>Observation</h2>
-	          <img data-src="../../src/img/mercury/babylonian_almanac.jpg" />
+	          <img data-src="/img/mercury/babylonian_almanac.jpg" />
 						<p>The earliest known observations of Mercury are dated from the 14th century BC!</p>
 						<p>NASA has sent two space probes to observe Mercury.</p>
 					</section>
 					<section>
 						<h2>Mariner 10</h2>
 						<p>In 1975, Mariner 10 gave us the first close-up view of Mars. Mariner 10 photographed about 45% of the planet.</p>
-						<img style="float:left;max-width:45%;" data-src="../../src/img/mercury/mariner10.gif" />
-						<img style="float:left;padding-left:20px;margin-right:10px;max-width:50%;" data-src="../../src/img/mercury/Mariner10_Mercury_732.jpg" />
+						<img style="float:left;max-width:45%;" data-src="/img/mercury/mariner10.gif" />
+						<img style="float:left;padding-left:20px;margin-right:10px;max-width:50%;" data-src="/img/mercury/Mariner10_Mercury_732.jpg" />
 					</section>
 					<section>
 						<h2>MESSENGER</h2>
 						<p style="text-align:left;padding-top:3%;">MESSENGER did much more imaging, including the first color images, during three fly by missions between 2008 and 2009.</p>
 						<section>
-							<img style="float:left;max-width:45%;" data-src="../../src/img/mercury/MESSENGER_Instr-browse.jpg" />
-							<img style="float:left;padding-left:20px;margin-right:10px;max-width:50%;" data-src="../../src/img/mercury/mercury_color732X520.jpg" />
+							<img style="float:left;max-width:45%;" data-src="/img/mercury/MESSENGER_Instr-browse.jpg" />
+							<img style="float:left;padding-left:20px;margin-right:10px;max-width:50%;" data-src="/img/mercury/mercury_color732X520.jpg" />
 						</section>
 					</section>
 
@@ -160,22 +118,4 @@
 			</div>
 		</div>
 
-		<script src="../../src/js/reveal.js/lib/js/head.min.js"></script>
-		<script src="../../src/js/reveal.js/js/reveal.js"></script>
-
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
-
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: '../../src/js/reveal.js/plugin/markdown/marked.js' },
-					{ src: '../../src/js/reveal.js/plugin/markdown/markdown.js' },
-					{ src: '../../src/js/reveal.js/plugin/notes/notes.js', async: true },
-					{ src: '../../src/js/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
-</html>
+		<%- include('../layout/_footer'); %>
