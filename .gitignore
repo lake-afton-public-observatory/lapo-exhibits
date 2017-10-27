@@ -28,8 +28,8 @@ coverage
 build/Release
 
 # Other Binaries
-src/img
-src/video
+img
+video
 
 # Dependency directories
 node_modules
