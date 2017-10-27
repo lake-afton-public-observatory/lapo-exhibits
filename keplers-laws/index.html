@@ -1,32 +1,17 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<title>Kepler's Laws of Planetary Motion</title>
-
-		<link rel="stylesheet" href="../../src/js/reveal.js/css/reveal.css">
-		<link rel="stylesheet" href="../../src/js/reveal.js/css/theme/black.css">
-		<link rel="stylesheet" href="../../src/css/style.css">
-    <link rel="stylesheet" href="../../src/css/custom_presentation.css">
-		<link rel="stylesheet" type="text/css" href="../../src/css/bootstrap.min.css">
-
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="../../src/js/reveal.js/lib/css/zenburn.css">
-
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'src/js/reveal.js/css/print/pdf.css' : 'src/js/reveal.js/css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-
-		<nav class="navbar navbar-expand-sm navbar-dark bg-dark bgPurple fixed-top">
+<head>
+  <title>Keplers Laws</title>
+	<link rel="stylesheet" type="text/css" href="/layout/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/layout/js/reveal.js/css/reveal.css">
+	<link rel="stylesheet" href="/layout/js/reveal.js/css/theme/black.css">
+	<link rel="stylesheet" href="/layout/css/style.css">
+	<link rel="stylesheet" href="/layout/css/custom_presentation.css">
+	<link rel="stylesheet" href="/layout/js/reveal.js/lib/css/zenburn.css">
+</head>
+<body>
+  <div class="container">
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark bgPurple">
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul class="navbar-nav mx-auto">
 		      <li class="nav-item dropdown px-3">
@@ -34,10 +19,10 @@
 		          Planets
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="/presentations/mercury.html">Mercury</a>
-		          <a class="dropdown-item" href="/presentations/mars.html">Mars</a>
-		          <a class="dropdown-item" href="/presentations/jupiter.html">Jupiter</a>
-		          <a class="dropdown-item" href="/presentations/saturn.html">Saturn</a>
+		          <a class="dropdown-item" href="/mercury/">Mercury</a>
+		          <a class="dropdown-item" href="/mars/">Mars</a>
+		          <a class="dropdown-item" href="/jupiter/">Jupiter</a>
+		          <a class="dropdown-item" href="/saturn/">Saturn</a>
 		        </div>
 		      </li>
 					<li class="nav-item dropdown px-3">
@@ -45,7 +30,7 @@
 		          Physics
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="/presentations/keplers-laws.html">Kepler's Laws</a>
+		          <a class="dropdown-item" href="/keplers-laws/">Kepler's Laws</a>
 		        </div>
 		      </li>
 					<li class="nav-item dropdown px-3">
@@ -53,8 +38,8 @@
 		          Deep Space Objects
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="/presentations/dso-slideshow.html">DSO Slideshow</a>
-		          <a class="dropdown-item" href="/presentations/black-holes.html">Black Holes</a>
+							<a class="dropdown-item" href="/dso-slideshow/">DSO Slideshow</a>
+		          <a class="dropdown-item" href="/black-holes/">Black Holes</a>
 		        </div>
 		      </li>
 					<li class="nav-item dropdown px-3">
@@ -62,7 +47,7 @@
 		          Spacecraft
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="/presentations/hubble.html">Hubble</a>
+		          <a class="dropdown-item" href="/hubble/">Hubble</a>
 		        </div>
 		      </li>
 		    </ul>
@@ -73,9 +58,9 @@
 			<div class="slides">
 
 
-        	<section class="has-dark-background" data-background-color="#000000">
-          		<h1>Kepler's Laws of Planetary Motion</h1>
-        		</section>
+  		<section class="has-dark-background" data-background-color="#000000">
+    		<h1>Kepler's Laws of Planetary Motion</h1>
+  		</section>
 
 			<section data-background-color="#9b442c">
                         <h2>Three scientific planetary laws</h2>
@@ -121,25 +106,27 @@
 			</div>
 		</div>
 
-		<script src="../../src/js/reveal.js/lib/js/head.min.js"></script>
-		<script src="../../src/js/reveal.js/js/reveal.js"></script>
-		<script src="../../src/js/jquery-3.0.0.slim.min.js"></script>
-		<script src="../../src/js/popper.js"></script>
-		<script src="../../src/js/bootstrap.min.js"></script>
+			</div> <!-- .container -->
+	<script src="/layout/js/reveal.js/lib/js/head.min.js"></script>
+	<script src="/layout/js/reveal.js/js/reveal.js"></script>
+	<script src="/layout/js/jquery-3.0.0.slim.min.js"></script>
+	<script src="/layout/js/popper.js"></script>
+	<script src="/layout/js/bootstrap.min.js"></script>
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
+	<script>
+		// More info https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			history: true,
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: '../../src/js/reveal.js/plugin/markdown/marked.js' },
-					{ src: '../../src/js/reveal.js/plugin/markdown/markdown.js' },
-					{ src: '../../src/js/reveal.js/plugin/notes/notes.js', async: true },
-					{ src: '../../src/js/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+			// More info https://github.com/hakimel/reveal.js#dependencies
+			dependencies: [
+				{ src: '/layout/js/reveal.js/plugin/markdown/marked.js' },
+				{ src: '/layout/js/reveal.js/plugin/markdown/markdown.js' },
+				{ src: '/layout/js/reveal.js/plugin/notes/notes.js', async: true },
+				{ src: '/layout/js/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+	</script>
+</body>
 </html>
+

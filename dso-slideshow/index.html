@@ -1,31 +1,17 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<title>Lake Afton Public Observatory</title>
-
-		<link rel="stylesheet" href="../../node_modules/reveal.js/css/reveal.css">
-		<link rel="stylesheet" href="../../node_modules/reveal.js/css/theme/black.css">
-		<link rel="stylesheet" href="../../src/css/style.css">
-    <link rel="stylesheet" href="../../src/css/custom_presentation.css">
-		<link rel="stylesheet" type="text/css" href="../../src/css/bootstrap.min.css">
-
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="../../node_modules/reveal.js/lib/css/zenburn.css">
-
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? '../../node_modules/reveal.js/css/print/pdf.css' : '../../node_modules/reveal.js/css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<nav class="navbar navbar-expand-sm navbar-dark bg-dark bgPurple fixed-top">
+<head>
+  <title>DSO Slideshow</title>
+	<link rel="stylesheet" type="text/css" href="/layout/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/layout/js/reveal.js/css/reveal.css">
+	<link rel="stylesheet" href="/layout/js/reveal.js/css/theme/black.css">
+	<link rel="stylesheet" href="/layout/css/style.css">
+	<link rel="stylesheet" href="/layout/css/custom_presentation.css">
+	<link rel="stylesheet" href="/layout/js/reveal.js/lib/css/zenburn.css">
+</head>
+<body>
+  <div class="container">
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark bgPurple">
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul class="navbar-nav mx-auto">
 		      <li class="nav-item dropdown px-3">
@@ -33,10 +19,10 @@
 		          Planets
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="/presentations/mercury.html">Mercury</a>
-		          <a class="dropdown-item" href="/presentations/mars.html">Mars</a>
-		          <a class="dropdown-item" href="/presentations/jupiter.html">Jupiter</a>
-		          <a class="dropdown-item" href="/presentations/saturn.html">Saturn</a>
+		          <a class="dropdown-item" href="/mercury/">Mercury</a>
+		          <a class="dropdown-item" href="/mars/">Mars</a>
+		          <a class="dropdown-item" href="/jupiter/">Jupiter</a>
+		          <a class="dropdown-item" href="/saturn/">Saturn</a>
 		        </div>
 		      </li>
 					<li class="nav-item dropdown px-3">
@@ -44,7 +30,7 @@
 		          Physics
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="/presentations/keplers-laws.html">Kepler's Laws</a>
+		          <a class="dropdown-item" href="/keplers-laws/">Kepler's Laws</a>
 		        </div>
 		      </li>
 					<li class="nav-item dropdown px-3">
@@ -52,8 +38,8 @@
 		          Deep Space Objects
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="/presentations/dso-slideshow.html">DSO Slideshow</a>
-		          <a class="dropdown-item" href="/presentations/black-holes.html">Black Holes</a>
+							<a class="dropdown-item" href="/dso-slideshow/">DSO Slideshow</a>
+		          <a class="dropdown-item" href="/black-holes/">Black Holes</a>
 		        </div>
 		      </li>
 					<li class="nav-item dropdown px-3">
@@ -61,7 +47,7 @@
 		          Spacecraft
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="/presentations/hubble.html">Hubble</a>
+		          <a class="dropdown-item" href="/hubble/">Hubble</a>
 		        </div>
 		      </li>
 		    </ul>
@@ -71,7 +57,7 @@
 		<div class="reveal">
 			<div class="slides">
 
-        <section class="has-dark-background" data-background-color="#000000" data-background-image="../../src/img/lapo/m42_background.jpg" data-background-size="cover">
+        <section class="has-dark-background" data-background-color="#000000" data-background-image="/img/lapo/m42_background.jpg" data-background-size="cover">
           <h1>Deep Space Objects</h1>
         </section>
 
@@ -83,9 +69,9 @@ Containing many thousands of stars. These stars orbit a common center. Some migh
 No known globular clusters display any star formation. All of their stars are older and lack heavy elements, suggesting they formed long ago.
 Between 150-180 such clusters surround our galaxy in a “halo”. These were used by Harlow Shapley to make a determination of the dimensions of our galaxy and our location within it.
 </p>
-						<img data-src="../../src/img/lapo/gsc_m55.jpg" />
-						<img data-src="../../src/img/lapo/gsc_m2.jpg" />
-						<img data-src="../../src/img/lapo/gsc_m30.jpg" />
+						<img data-src="/img/lapo/gsc_m55.jpg" />
+						<img data-src="/img/lapo/gsc_m2.jpg" />
+						<img data-src="/img/lapo/gsc_m30.jpg" />
           </section>
         </section>
 
@@ -95,8 +81,8 @@ Between 150-180 such clusters surround our galaxy in a “halo”. These were us
             <p style="font-size:.7em;">Visibly different that Globular Clusters, Open Clusters contain at most a few thousand stars formed in the same star-forming cloud of gas and dust. M45 still has some of this dust. Mostly young, hot stars, which are blue in color.
 Loosely bound together, they will drift apart over time. In irregular galaxies, open clusters may be found throughout the galaxy, although their concentration is highest where the gas density is highest.
 In our galaxy, open clusters are found in the spiral arms where gas densities are highest and most star formation occurs. Open clusters are not seen in elliptical galaxies where star formation ceased many millions of years ago.</p>
-						<img data-src="../../src/img/lapo/osc_m45.jpg" />
-						<img data-src="../../src/img/lapo/osc_m11.jpg" />
+						<img data-src="/img/lapo/osc_m45.jpg" />
+						<img data-src="/img/lapo/osc_m11.jpg" />
           </section>
         </section>
 
@@ -109,9 +95,9 @@ In our galaxy, open clusters are found in the spiral arms where gas densities a
 							<p style="font-size:.6em;"><u>Emission nebulae</u> emit light from the gases in them.</p>
 							<p style="font-size:.6em;"><u>Dark (absorption) nebulae</u> block the light of stars behind them and appear as a “hole” in space.</p>
 						</div>
-						<img data-src="../../src/img/lapo/n_m45.jpg" />
-						<img data-src="../../src/img/lapo/n_m57.jpg" />
-						<img data-src="../../src/img/lapo/n_barnard_68.jpg" />
+						<img data-src="/img/lapo/n_m45.jpg" />
+						<img data-src="/img/lapo/n_m57.jpg" />
+						<img data-src="/img/lapo/n_barnard_68.jpg" />
           </section>
         </section>
 
@@ -125,9 +111,9 @@ In our galaxy, open clusters are found in the spiral arms where gas densities a
 							<p style="font-size:.6em;"><u>Dwarf galaxies</u> are mostly gas and dust in a poorly organized structure.</p>
 							<p style="font-size:.6em;"><u>Irregular galaxies</u> (everything else).</p>
 						</div>
-						<img data-src="../../src/img/lapo/g_1.jpg" />
-						<img data-src="../../src/img/lapo/g_3.jpg" />
-						<img data-src="../../src/img/lapo/g_4.jpg" />
+						<img data-src="/img/lapo/g_1.jpg" />
+						<img data-src="/img/lapo/g_3.jpg" />
+						<img data-src="/img/lapo/g_4.jpg" />
           </section>
         </section>
 
@@ -135,32 +121,34 @@ In our galaxy, open clusters are found in the spiral arms where gas densities a
 					<section>
             <h2>Planets</h2>
             <p style="font-size:.7em;">Objects orbiting our star (the Sun) along with us.<br />These are made up of two types; Larger <u>gas giants</u> and smaller <u>rocky</u> worlds.</p>
-						<img data-src="../../src/img/lapo/planets_3.jpg" />
+						<img data-src="/img/lapo/planets_3.jpg" />
           </section>
         </section>
 
 			</div>
 		</div>
 
-		<script src="../../node_modules/reveal.js/lib/js/head.min.js"></script>
-		<script src="../../node_modules/reveal.js/js/reveal.js"></script>
-		<script src="../../src/js/jquery-3.0.0.slim.min.js"></script>
-		<script src="../../src/js/popper.js"></script>
-		<script src="../../src/js/bootstrap.min.js"></script>
+			</div> <!-- .container -->
+	<script src="/layout/js/reveal.js/lib/js/head.min.js"></script>
+	<script src="/layout/js/reveal.js/js/reveal.js"></script>
+	<script src="/layout/js/jquery-3.0.0.slim.min.js"></script>
+	<script src="/layout/js/popper.js"></script>
+	<script src="/layout/js/bootstrap.min.js"></script>
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
+	<script>
+		// More info https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			history: true,
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'node_modules/reveal.js/plugin/markdown/marked.js' },
-					{ src: 'node_modules/reveal.js/plugin/markdown/markdown.js' },
-					{ src: 'node_modules/reveal.js/plugin/notes/notes.js', async: true },
-					{ src: 'node_modules/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+			// More info https://github.com/hakimel/reveal.js#dependencies
+			dependencies: [
+				{ src: '/layout/js/reveal.js/plugin/markdown/marked.js' },
+				{ src: '/layout/js/reveal.js/plugin/markdown/markdown.js' },
+				{ src: '/layout/js/reveal.js/plugin/notes/notes.js', async: true },
+				{ src: '/layout/js/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+	</script>
+</body>
 </html>
+
