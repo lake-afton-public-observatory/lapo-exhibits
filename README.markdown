@@ -53,5 +53,4 @@ In an effort to maintain consistent, professional branding, please use the logos
 
 - [**Logos/Brand Standards Download**](http://bit.ly/2aNUfSN)
 - **Dev Contact:** [Seth Duncan](sduncan@lakeafton.com)
-- **Git Contact:** [Michael Neth](mneth@lakeafton.com)
 - **Branding Contact:** [Andrew Stephens](artandsalsa@gmail.com)
